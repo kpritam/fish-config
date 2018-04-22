@@ -2,7 +2,7 @@
 ### Network Related
 #################################
 
-alias localip="ipconfig getifaddr en1"
+alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ and print $1'"
 alias whois="whois -h whois-servers.net"
 
