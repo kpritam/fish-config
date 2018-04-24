@@ -49,7 +49,9 @@ alias gco="git checkout"
 alias gba="git branch -a"
 alias gcp="git cherry-pick"
 alias gl="git lg"
-alias gpom="git pull origin master"
+alias gpom="git push origin master"
+alias gpr="git pull --rebase"
+
 # turn on coloring on grep
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
